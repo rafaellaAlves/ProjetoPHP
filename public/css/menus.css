@@ -1,0 +1,128 @@
+
+
+a,
+a:hover,
+a:focus{
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.navbar{
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.navbar-btn{
+    box-shadow: none;
+    outline: none!important;
+    border: none;
+}
+.navbar ul li a{
+    font-size: 0.9em;
+}
+
+#sidebar {
+    min-width: 220px;
+    max-width: 220px;
+    background:#F7F7F7;
+    height: auto;
+    color: black;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+#sidebar.active{
+    margin-left: -220px;
+}
+
+#sidebar .sidebar-header{
+    padding: 5px;
+    background:#F7F7F7;
+        text-align: center;
+}
+#sidebar ul.components{
+    padding: 20px 0px;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p{
+    padding: 10px;
+    font-size: 0.9em;
+    display: block;
+}
+a.download{
+    background: #1E90FF !important;
+    color: #fff !important;
+}
+#sidebar ul li a{
+    padding: 10px;
+    font-size: 0.9em;
+    display: block;
+    color: black;
+
+}
+#sidebar ul li a:hover {
+    color: white;
+    background: black;
+    text-decoration: none;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: black;
+    background: #F7F7F7;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.8em !important;
+    padding-left: 30px !important;
+    background:#F7F7F7;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.8em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.article,
+a.article:hover {
+    background: #1E90FF !important;
+    color: #fff !important;
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+@media(maz-width:768px){
+    #sidebar{margin-left: -220px;}
+    #sidebar.active{
+        margin-left: 0px;
+    }
+    #sidebarCollapse span{
+        display: none;
+    }
+}

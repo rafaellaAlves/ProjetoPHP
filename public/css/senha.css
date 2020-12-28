@@ -1,0 +1,41 @@
+body{
+padding-top: 40px;
+    padding-bottom: 70px; 
+    background-color: white;
+    background-image: linear-gradient(to top, transparent, rgba(0,0,0,.5));
+}
+#fundo-senha{
+
+    padding: 15px;
+    margin-left: 100px;
+    background-color: white;
+    height: 450px;
+    width: 450px;
+    border-radius: 30px;
+}
+#slogan{
+    width: 300px;
+    position: absolute;
+    margin-left: 120px;
+}
+#form-senha{
+  margin-top: 190px;
+    padding: 15px;
+    margin-left: 50px;
+    height: 500px;
+    width: 450px;
+    
+}
+#botao_submit_senha{
+    width: 120px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+h6{
+    margin-left: 150px;
+    margin-top: 180px;
+    margin-bottom: -160px;
+    font-size: x-large;
+    font-style: initial;
+}
